@@ -15,6 +15,7 @@ public class DataType {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		{
 		System.out.println("-----基本数值类型-----");
 		//变量, 常量
 		final double PI = 3.141596;//常量
@@ -34,9 +35,10 @@ public class DataType {
 		//字符
 		char a = 'A';
 		char b = '\u003a';
+		}
 		
 		
-		
+		{
 		System.out.println("-----基本运算-----");
 		int i1 = 10;
 		int i2 = 23;
@@ -59,15 +61,30 @@ public class DataType {
 		System.out.println("b2="+b2);
 		System.out.println("b1+1=" + (b1+1));
 		System.out.println("2^7=" + (2^7));
+		}
 		
+		{
 		//进制
 		int ii1 = 10;
 		int ii2 = 010;
-		int ii3 = 0xf0;
+		int ii3 = 0x1a;
 		System.out.println("i1=" + ii1);
 		System.out.println("i2=" + ii2);
 		System.out.println("i3=" + ii3);
+		}
 		
+		{
+		//类型转换
+		//自动类型转换只能低位数类型转高位数类型,否则编译报错,除非强转
+		short s = 10;
+		int int1 = s;
+		long l = 323232l;
+		int int2 = (int)l;
+		double d = 10.223;
+		int int3 = (int)d;
+		System.out.println("自动类型转换, int1 = " + int1 + ", int2 = " + int2 + ", int3 = " + int3);
+
+		}
 		
 	}
 
