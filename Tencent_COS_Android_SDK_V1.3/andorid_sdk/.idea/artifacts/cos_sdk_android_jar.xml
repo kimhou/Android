@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="cos_sdk.android:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/cos_sdk_android_jar</output-path>
+    <root id="archive" name="andorid_sdk.jar">
+      <element id="module-output" name="andorid_sdk" />
+    </root>
+  </artifact>
+</component>
