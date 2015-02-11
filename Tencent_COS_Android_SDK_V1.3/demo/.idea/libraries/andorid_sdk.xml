@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="andorid_sdk">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../andorid_sdk/out/artifacts/cos_sdk_android_jar/andorid_sdk.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
